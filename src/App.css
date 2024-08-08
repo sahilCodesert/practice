@@ -1,0 +1,46 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 2px solid #000;
+  font-family: arial, sans-serif;
+}
+
+th,
+td {
+  border: 3px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+.hobby {
+  display: flex;
+}
+tr:nth-child(even) {
+  background-color: #7eecec;
+}
+button {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.error {
+  color: red;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+form {
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
